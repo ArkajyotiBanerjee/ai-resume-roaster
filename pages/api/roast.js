@@ -1,6 +1,6 @@
 import { requireAuth } from '../../lib/auth';
 import prisma from '../../lib/db';
-import { GeminiRoastError, generateResumeRoast } from '../../lib/claude';
+import { GeminiRoastError, generateResumeRoast } from '../../lib/gemini';
 
 const MAX_RESUME_TEXT_LENGTH = 100000;
 
