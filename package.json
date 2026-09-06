@@ -4,9 +4,9 @@
   "description": "Demo package.json for the project.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "prisma generate && next build",
-    "start": "next start"
+    "dev": "node api.js && next dev",
+    "build": "node api.js && prisma generate && next build",
+    "start": "node api.js && next start"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.3",
